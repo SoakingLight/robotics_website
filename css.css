@@ -25,10 +25,17 @@ body {
 
 #backgroundtext {
 	color: black;
+	text-align: center;
+}
+
+.test{
+	text-align: center;
+	background-color: teal;
 }
 
 
 .content {
+	float: left;
 	max-width: 500px;
 	margin: auto;
 	padding: 1px;
