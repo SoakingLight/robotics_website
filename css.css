@@ -1,4 +1,5 @@
 body {
+	background-color: lightgray;
 	margin: 0;
 	font-family: 'Comic Sans MS', Helvetica, sans-serif;
 }
@@ -39,5 +40,13 @@ body {
 	margin: auto;
 	padding: 1px;
 }
+@media only screen and (max-width: 420px) {
+.topnav {
+	padding: 0%;
 
+}
+.topnav a {
+	padding: 12px 12px;
+}
 
+}

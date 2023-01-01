@@ -4,12 +4,44 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css.css">
 <style>
-    
+#myVideo {
+
+  position: relative;
+  right: 0;
+  bottom: 0;
+width:100% ;
+height: 75%;
+
+}
+.content {
+    text-align: center;
+  position:absolute;
+  left: 35%;;
+  bottom: 50%;
+  background: rgba(0, 0, 0, 0.75);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+#myVideo{
+    width: 100%;
+    height:0%;
+}
+.content{
+    font-size: 11px;
+    left:0;
+    padding: 0;
+    bottom: 80%;
+    position: absolute;
+}
+}
 </style>
 
 <body>
 
-
+<nav>
     <div class="topnav">
         <a href="website.html">Home</a>
         <a href="first.html">First</a>
@@ -18,15 +50,20 @@
         <a href="7178.html">7178</a>
         <a href="https://teamlocker.squadlocker.com/#/lockers/402840" target="_blank" >Shop</a>
     </div>
-
+</nav>
    
 
-    <h1 style="text-align: center;">  </h1>
-    <div class="content">
-        <table>
-          
-            <p id="backgroundtext">Welcome to the Walled Lake Robotics website.</p>
 
-        </table>
+
+<div class="video">
+
+
+<video autoplay muted loop id="myVideo">
+    <source src="video/backgroundvideo.mp4" type="video/mp4">
+  </video>
+  <div class="content">
+    <h1>Walled lake robotics</h1>
     </div>
+  </div>
+
 </body>
